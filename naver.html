@@ -7,19 +7,23 @@
     </head>
     <body>
         <header>   <!--<div id="header">와 동일-->
-            <h1>
-                <a href="https://www.naver.com">네이버</a> 
-                <!-- 주석(comment)입니다.-->
-                <!-- 속성(attribute)입니다.-->
-            </h1>
-            <h2>검색창</h2>
-            <fieldset>
-                <legend>검색</legend>
-                <input />
-                <button>검색</button>
-            </fieldset>
+            <div id="header-center">  <!--가운데 정렬용 div  콘텐츠가 아닌 구역 자체가 가운데 정렬됨-->   
+                <!--CSS의 구성; "속성명: 속성값"(여러 개일 경우 속성 간 구분은 ;로)-->
+                <!--인라인 스타일(비권장) - CSS파일을 따로 만들지 않고, html 문서 내에 style 속성으로 CSS를 적는 방식-->
+                <h1>
+                    <a href="https://www.naver.com">네이버</a> 
+                    <!-- 주석(comment)입니다.-->
+                    <!-- 속성(attribute)입니다.-->
+                </h1>
+                <h2>검색창</h2>
+                <fieldset>
+                    <legend>검색</legend>
+                    <input />
+                    <button>검색</button>
+                </fieldset>
+            </div>
         </header>
-        <main>   <!--<div id="nav">와 동일-->
+        <nav>   <!--<div id="nav">와 동일-->
             <ul>   <!--unordered list; ol(ordered list)-->
                 <li>메일</li>   <!--list item-->
                 <li>카페</li>
@@ -30,8 +34,8 @@
                 <li>Pay</li>
                 <li>TV</li>
         </ul>
-        </main>
-        <div>
+        </nav>
+        <main>
             <h2>실시간 검색어</h2>
             <h3>연합뉴스</h3>
             <ol>
@@ -49,7 +53,7 @@
             <h3>법률</h3>
             <h3>쇼핑</h3>
             <h6>쇼핑</h6>
-        </div>
+        </main>
         <footer>
             <div>공지사항</div>
             <div>Creators</div>
