@@ -1,0 +1,8 @@
+/*Cascading Style Sheet*/
+/* 선택자(selector) */
+
+div#header-center {
+  /*div 태그의 id일 경우에 한해서 div 키워드 생략 가능*/
+  margin: 0 auto;
+  width: 1130px;
+}
