@@ -4,5 +4,22 @@
 div#header-center {
   /*div 태그의 id일 경우에 한해서 div 키워드 생략 가능*/
   margin: 0 auto;
-  width: 1130px;
+  width: 10800px;
+}
+
+div#header-search > h1 {
+  /* 부모 태그의 id에서 자식 태그 > 로 선택 or 자식 태그에 별도의 id 붙여주기 */
+  width: 280px;
+}
+
+#header-center h1 {
+  /* 자손 태그는 > 없이 공백을 두고 바로 접근 가능 */
+}
+
+#header-search h2 {
+  display: none;
+}
+
+#header-search fieldset {
+  width: 520px;
 }
