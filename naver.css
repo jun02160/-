@@ -1,5 +1,13 @@
 /*Cascading Style Sheet*/
 /* 선택자(selector) */
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
 
 div#header-center {
   /*div 태그의 id일 경우에 한해서 div 키워드 생략 가능*/
@@ -22,4 +30,5 @@ div#header-search > h1 {
 
 #header-search fieldset {
   width: 520px;
+  display: inline-block;
 }
