@@ -29,8 +29,23 @@
   width: 1130px;
 }
 
+#header-top {
+  float: right;
+}
+
+#header-top span {
+  float: left;
+  height: 21px;
+  font-size: 11px;
+  line-height: 22px;
+  color: #888;
+  letter-spacing: -1px;
+  margin: 2px;
+}
+
 #header-search h1 {
   text-decoration: none;
+  clear: both;
 }
 
 div#header-search h1 {
