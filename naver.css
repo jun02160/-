@@ -12,12 +12,26 @@
 div#header-center {
   /*div 태그의 id일 경우에 한해서 div 키워드 생략 가능*/
   margin: 0 auto;
-  width: 10800px;
+  width: 1080px;
 }
 
-div#header-search > h1 {
+#header-search h1 {
+  text-decoration: none;
+}
+
+div#header-search h1 {
   /* 부모 태그의 id에서 자식 태그 > 로 선택 or 자식 태그에 별도의 id 붙여주기 */
-  width: 280px;
+  width: 214px;
+  height: 50px;
+  display: inline-block;
+  background-image: url("./sp_search.png");
+  background-position: -6px -8px;
+  background-repeat: no-repeat;
+  /* background: url("./sp_search.png"); 4px 11px no-repeat 으로 한 번에 작성 가능*/
+}
+
+#header-search h1 span {
+  display: none;
 }
 
 #header-center h1 {
@@ -29,6 +43,14 @@ div#header-search > h1 {
 }
 
 #header-search fieldset {
+  margin-left: 20px;
+  /* padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 0; */
+  padding: 12px 0 12px 10px;
   width: 520px;
+  height: 40px;
   display: inline-block;
+  border: 2px solid #19ce60;
 }
