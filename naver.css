@@ -44,7 +44,7 @@ body {
   position: absolute;
   top: 0;
   right: 11px;
-  margin-top: 60px;
+  margin-top: 6px;
 }
 
 #header-top span {
@@ -310,4 +310,87 @@ main {
 main h3:nth-child(3) {
   /* h3 연합뉴스 -> ol -> h3 언론사목록(3번째)*/
   background: #f2f4f7;
+}
+
+#main-centered {
+  padding: 8px 10px 0;
+  width: 1100px;
+}
+
+#main-ad {
+  display: inline-block;
+  width: 740px;
+  height: 120px;
+}
+
+#main-login {
+  display: inline-block;
+  width: 332px;
+  height: 120px;
+  vertical-align: top;
+  background-color: white;
+}
+
+#main-ytn {
+  display: inline-block;
+  width: 740px;
+  height: 246px;
+  vertical-align: top;
+  background-color: white;
+}
+
+#main-newsstand {
+  display: inline-block;
+  width: 740px;
+  height: 246px;
+  vertical-align: top;
+  background-color: white;
+}
+
+#mainweather {
+  display: inline-block;
+  width: 332px;
+  height: 142px;
+  vertical-align: top;
+  background-color: white;
+}
+
+#main-second-ad {
+  display: inline-block;
+  width: 332px;
+  height: 150px;
+  vertical-align: top;
+  background-color: #555;
+}
+
+#main-category {
+  display: inline-block;
+  width: 332px;
+  height: 837px;
+  vertical-align: top;
+  background: white;
+}
+
+#main-shopping {
+  display: inline-block;
+  width: 332px;
+  height: 837px;
+  vertical-align: top;
+  background: white;
+}
+
+#main-event {
+  display: inline-block;
+  width: 332px;
+  height: 130px;
+  background: white;
+  vertical-align: top;
+}
+
+#main-third-ad {
+  display: inline-block;
+  width: 332px;
+  height: 130px;
+  vertical-align: top;
+  background: #555;
 }
