@@ -72,3 +72,21 @@ div#header-search h1 {
   vertical-align: middle;
   width: 405px;
 }
+
+#header-search fieldset button {
+  width: 45px;
+  height: 45px;
+  border: none;
+  padding: 0;
+  background: #19ce60;
+}
+
+#search-image {
+  background-image: url("./sp_search.png");
+  background-position: -4px -59px;
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  margin: 11px;
+}
