@@ -9,6 +9,15 @@ body {
   font-family: "Apple SD Gothic Neo", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -67,7 +76,7 @@ body {
 #header-search {
   text-decoration: none;
   clear: both;
-  padding-top: 30px;
+  padding-top: 75px;
 }
 
 #header-search a {
@@ -442,6 +451,14 @@ main h3:nth-child(3) {
 #main-ytn h3,
 #main-ytn ol {
   display: inline-block;
+}
+
+#main-ytn h3,
+#main-newsstand h3 {
+  font-size: 14px;
+  font-family: NanumSquare, Dotum, "돋움", Arial, Helvetica, -apple-system,
+    sans-serif;
+  line-height: 45px;
 }
 
 #main-second-block {
